@@ -39,7 +39,7 @@ p {
 
 header {
     height: 150px;
-    background-image: url("../imagens/bck-header.jpg");
+    background-image: url("../imagens/fundo-de-banner-abstrato-poligono-rosa_1035-19018.jpg");
     background-repeat: repeat-x;
     /*background-size: cover;*/
     display: flex; /* para organizar a fotinho e o nav do lado do outro*/
@@ -100,7 +100,7 @@ ul li a:hover {
 
 
 #miolo {
-    background-color: red;
+    background-color:brown;
     margin-top: 12px;
     padding: 18px 20px;
     display: flex;
@@ -113,7 +113,7 @@ ul li a:hover {
     /*align-items: center;*/
     width: 980px;
     height: 220px;
-    background-color: red;
+    background-color: brown;
 }
 
 #textos { 
@@ -146,7 +146,7 @@ section {
 
 aside{
     width: 320px;
-    background-color: orange;
+    background-color:rgb(226, 140, 154);
     padding: 0px 10px;
     display: flex;
     flex-direction: column;
@@ -171,6 +171,6 @@ footer{
     height: 50px;
     display: flex;
     justify-content: center;
-    background-color: orange;
+    background-color: rgb(226, 140, 154);
     color: white;
 }
