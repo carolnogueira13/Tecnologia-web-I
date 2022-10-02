@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+body { 
+    background-color: beige ;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+ color: white;
+ font-size: 20px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-top: 0px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    margin-top: 5px;
+    
+
+}
+
+.p2 {
+    color: black;
+
+}
+
+#Principal { width: 1366px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    height: 150px;
+    background-image: url("../imagens/bck-header.jpg");
+    background-repeat: repeat-x;
+    /*background-size: cover;*/
+    display: flex; /* para organizar a fotinho e o nav do lado do outro*/
+    justify-content: space-between; /* justificar com um espaço entre eles */
+} 
+
+
+#fotinho {
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 12px;
+}
+   
+
+#fotinho img {
+    width: 130px;
+}
+
+
+nav {
+    /*background-color: pink;*/
+    width: 700px;
+}
+
+ul { 
+    list-style-type: none; /* para tirar bullet (bolinhas) */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+} 
+
+ul li { 
+    background-color: white;
+    padding: 5px 10px; 
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 18px; 
+    text-transform: uppercase;   
+}
+
+ul li a { 
+    color: red;
+    text-decoration: none; /* para o sublinhado - deixar sem decoração */
+
+}
+
+ul li:hover {
+    background-color: darksalmon;
+} 
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Aqui começa o miolo*/
+
+
+#miolo {
+    background-color: red;
+    margin-top: 12px;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Destaque { 
+    display: flex;
+    justify-content:center; 
+    /*align-items: center;*/
+    width: 980px;
+    height: 220px;
+    background-color: red;
+}
+
+#textos { 
+    margin-left: 20px;
+}
+
+section { 
+    width: 966px;
+    height: 320px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around; /*alinhar no eixo principal*/
+    align-items: center; /*alinhar no outro eixo*/
+    /*padding-top: 10px;*/
+
+}
+
+.trabalhos {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    /*margin-top: 10px;*/
+
+}
+
+/* .trabalhos p { color: black} Outra forma de colocar o parágrafo de article na cor preta */ 
+
+
+
+aside{
+    width: 320px;
+    background-color: orange;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*Para o texto conmeçar no topo*/
+    align-items: center; /* Colocar os termos no centro no eixo x*/
+}
+
+.bt {
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.bt:hover {
+    background-color: brown;
+}
+
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+}
