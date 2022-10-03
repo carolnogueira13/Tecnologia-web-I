@@ -24,6 +24,10 @@ h2 {
     color: white;
 }
 
+h3 {
+    text-transform: uppercase;
+}
+
 p {
     color: white;
     margin-top: 5px;
@@ -116,7 +120,7 @@ ul li a:hover {
 #Sobre {
     background-color: brown;
     width: 980px;
-    height: 400px;
+    height: 555px;
     
     
 }
