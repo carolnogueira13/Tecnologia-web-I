@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+body {
+    
+    background-image: url("../imagens/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    background-color:#FFBF00;
+    width: 600px;
+    color: white;
+    font-size: 80px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-weight: bold;
+    
+
+
+}
+
+p {
+    background-color: black;
+    width: 1150px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+header{
+    height: 100px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Logo {
+    
+    height: 100px;
+}
+
+nav {
+    width: 1000px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+ul li { 
+    background-color: black;
+    margin-left: 30px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 18px; 
+    border:1px;
+    border-style: solid;
+    border-color: white;
+      
+}
+
+ul li a { 
+    color: white;
+    text-decoration: none;
+
+}
+
+ul li:hover {
+    background-color: #FFBF00;
+} 
+
+ul li a:hover {
+    color: black;
+}
+
+section{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
