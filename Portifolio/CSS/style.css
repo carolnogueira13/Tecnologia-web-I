@@ -102,9 +102,15 @@ ul li a:hover {
 #miolo {
     background-color:brown;
     margin-top: 12px;
+    margin-bottom: 5px;
     padding: 18px 20px;
     display: flex;
     justify-content: space-between;
+}
+
+#Sobre {
+    background-color: brown;
+    height: 400px;
 }
 
 #Destaque { 
