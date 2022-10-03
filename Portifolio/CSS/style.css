@@ -20,9 +20,14 @@ h2 {
     margin: 0px;
 }
 
+.h2{
+    color: white;
+}
+
 p {
     color: white;
     margin-top: 5px;
+    text-align: justify;
     
 
 }
@@ -89,7 +94,7 @@ ul li a {
 }
 
 ul li:hover {
-    background-color: darksalmon;
+    background-color: rgb(241, 138, 138);
 } 
 
 ul li a:hover {
@@ -110,8 +115,12 @@ ul li a:hover {
 
 #Sobre {
     background-color: brown;
+    width: 980px;
     height: 400px;
+    
+    
 }
+
 
 #Destaque { 
     display: flex;
@@ -158,6 +167,7 @@ aside{
     flex-direction: column;
     justify-content: flex-start; /*Para o texto conmeçar no topo*/
     align-items: center; /* Colocar os termos no centro no eixo x*/
+    
 }
 
 .bt {
