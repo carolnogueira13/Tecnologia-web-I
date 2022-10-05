@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+body{
+    background-color: beige ;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Início das caracteísticas dos p e h da página*/
+
+h1{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #698e00;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.p1 {
+    color: white;
+    font-weight: bold;
+
+}
+
+/*Início do Principal*/
+
+#Principal{
+    width: 1280px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+header{
+    border-top: 20px solid #9ed600;
+    border-bottom: 10px solid #e1ff8d;
+    height: 120px;
+    background-color:white;
+    display: flex;
+    align-items: center; 
+}
+
+nav {
+    width: 550px;
+}
+
+ul { 
+    list-style-type: none; /* para tirar bullet (bolinhas) */
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0px; 
+} 
+
+ul li { 
+    background-color: #698e00;
+    padding: 10px 15px; 
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 18px; 
+    text-transform: uppercase; 
+}
+
+ul li a { 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; /* para retirer o sublinhado - deixar sem decoração */
+}
+
+ul li:hover {
+    background-color: black;
+} 
+
+
+
+#Topo {
+    background-image: url("../imagens/banner.jpg");
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+#textos{
+    background-color: #688e00c5;
+    width: 250px;
+    height: 80px;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#paifolhas{
+    display: flex;
+    margin-top: 10px;
+}
+
+#Folha{
+    background-color:#e1ff8d;
+    padding-left: 20px;
+    margin-left: 10px;
+    width: 720px;
+}
+
+#Artigos{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+}
+
+.conteudo{
+    margin-left: 20px;
+}
+
+.bt{
+    background-color: #698e00;
+    color: white;
+
+    padding: 10px 15px; 
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: 18px; 
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+.bt:hover {
+    background-color: black;
+}
+
+
+footer{
+    height: 60px;
+    margin-top: 20px;
+    background-color: #698e00;
+    display: flex;
+    justify-content: center;
+}
+
