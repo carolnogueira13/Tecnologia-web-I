@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Mobile*/
+body{
+    background-color:pink;
+    
+    
+}
+
+h1{
+    color: red;
+}
+
+
+/*Tablet*/
+@media (min-width:768px){
+    body{background-color: rgb(100, 100, 189);}
+    h1{ color: rgb(45, 45, 119);}
+} /* Chamar apenas os elementos que quer fazer alteração nesse tamanho especifico*/
+
+/*Desktop*/
+@media (min-width:960px){
+    body{background-color: rgb(226, 161, 137);}
+    h1{color: rgb(247, 91, 35);}
+}
+
+/*Widescreen*/
+@media(min-width:1200px) {
+    body{background-color: rgb(228, 109, 182);}
+    h1{color: rgb(231, 19, 150) ;}
+}
+
