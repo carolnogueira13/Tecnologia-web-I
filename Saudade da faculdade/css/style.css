@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: black;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.bg-cinza{
+    background-color: #e9e9e9;
+}
+
+h5{
+    color: rgb(155, 153, 153);
+}
+
+.caixa {
+    border-top: solid 10px black;
+}
+
+.jumbotron {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-brand img{
+    width:70%;
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+
+.slider{ 
+    margin: 5px 0px 20px 0px;
+
+}
+
+.card {
+    width: 18rem;
+    background-color: black;
+    border: 0px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-img-top{
+    width: fit-content;
+}
+
+.meu-btn{
+    text-transform: uppercase;
+    color: black;
+    background-color: #e9e9e9;
+    border-color: #e9e9e9;
+}
+
+.fundo-cinza{
+    background-color: gray;
+    padding: 15px 0px;
+}
+
+form{
+    background-color: #e9e9e9;
+    width: 80%;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.botao-azul:hover{
+    background-color: rgb(65, 116, 233) ;
+}
+
+footer{
+    height: 80px;
+    background-color: #e9e9e9;
+    text-align: center;
+    color: black;
+}

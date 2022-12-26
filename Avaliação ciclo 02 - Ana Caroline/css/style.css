@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+body {
+    color: white;
+}
+
+h4 {
+    font-size: 15px;
+    color: rgb(121, 7, 45);
+}
+
+h5 {
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+header {
+    border-bottom-color: rgb(121, 7, 45);
+    border-bottom: 30px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(121, 7, 45);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.fundo-vermelho {
+    background-color: rgb(121, 7, 45);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: rgb(121, 7, 45);
+    border: none;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+.meu-btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  rgb(121, 7, 45);
+    background-color: white;
+    
+}
+
+.meu-btn:hover{
+    background-color: rgb(173, 76, 76);
+    color: black;
+}
+
+.card-border {
+    background-color:  rgb(121, 7, 45);
+    border: rgb(218, 201, 201) solid 1px;
+    width: auto;
+    margin-top: 1px;
+
+}
+
+.card-header {
+    background-color: rgb(218, 201, 201);
+    
+}
+
+.btn-link {
+    color: rgb(121, 7, 45);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-link:hover{
+    color: black;
+}
+
+.acordao {
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 80px;
+}
